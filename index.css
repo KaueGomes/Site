@@ -8,12 +8,12 @@ body{
 /*Conteúdo do topo do site*/
 header{
 
-	background-color: #212020;
+
 }
 
 .header_content{
 	
-	display: flex;
+	display: inline;
 	color: white;
 	margin-left: 6%;
 	margin-right: 6%;
@@ -21,21 +21,28 @@ header{
 
 nav{
 	
+	display: grid;
+	background-color: #212020;
+	
+}
+
+.logo_content{
+	
+	float: left;
+	
+}
+
+.links_content{
+	
+	float: right;
+	
 }
 
 ul{
 	
-	display: flex;
+	display: inline-block;
 	
 }
-
-li{
-	
-	margin: 5px;
-	list-style-type: none;
-	
-}
-
 
 /*Conteúdo do site*/
 
