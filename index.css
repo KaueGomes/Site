@@ -1,5 +1,26 @@
+
+/*Conteúdo do topo do site*/
 .header_content{
 	
-	background-color: gray;
+	display: flex;
+	background-color: #212020;
+	color: white;
+	
+}
+
+nav{
+	
+}
+
+ul{
+	
+	display: flex;
+	
+}
+
+li{
+	
+	margin: 5px;
+	list-style-type: none;
 	
 }
