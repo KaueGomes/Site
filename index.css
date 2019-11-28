@@ -1,11 +1,22 @@
 
+body{
+	
+	margin: 0px;
+	
+}
+
 /*Conteúdo do topo do site*/
+header{
+
+	background-color: #212020;
+}
+
 .header_content{
 	
 	display: flex;
-	background-color: #212020;
 	color: white;
-	
+	margin-left: 6%;
+	margin-right: 6%;
 }
 
 nav{
@@ -22,5 +33,29 @@ li{
 	
 	margin: 5px;
 	list-style-type: none;
+	
+}
+
+
+/*Conteúdo do site*/
+
+section{
+	
+	margin-left: 6%;
+}
+
+/*Rodapé*/
+
+footer{
+	
+	background-color: #212020;
+	
+}
+
+.footer_content{
+	
+	margin-left: 6%;
+	padding: 8px;
+	color: white;
 	
 }
