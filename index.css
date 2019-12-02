@@ -11,6 +11,7 @@ body{
 	align-items: center;
 	margin-left: 6%;
 	margin-right: 6%;
+
 }
 
 nav{
@@ -31,11 +32,18 @@ a:hover{
 	
 }
 
+.logo_content{
+	
+	width: -webkit-fill-available;
+	
+}
+
 .links_content > ul {
 	width: auto;
 	display: flex;
 	padding: 0;
 	list-style: none;
+	float: right;
 }
 
 /*Conteúdo do site*/
