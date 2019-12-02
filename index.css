@@ -7,18 +7,14 @@ body{
 
 /*Conteúdo do topo do site*/
 .header_content{
-	
-	display: inline;
-	color: white;
+	display: flex;
+	align-items: center;
 	margin-left: 6%;
 	margin-right: 6%;
 }
 
 nav{
-	
-	display: grid;
 	background-color: #292929;
-	
 }
 
 nav a{
@@ -35,16 +31,11 @@ a:hover{
 	
 }
 
-.logo_content{
-	
-	float: left;
-	
-}
-
-.links_content{
-	
-	float: right;
-	
+.links_content > ul {
+	width: auto;
+	display: flex;
+	padding: 0;
+	list-style: none;
 }
 
 /*Conteúdo do site*/
