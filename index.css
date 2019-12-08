@@ -38,9 +38,23 @@ a:hover{
 	
 }
 
+ul li{
+	
+	padding: 15px;
+	font-size: 20px;
+	
+}
+
 .logo_content{
 	
+	padding: 15px;
 	width: -webkit-fill-available;
+	
+}
+
+.logo_content img{
+	
+	max-width:20%;
 	
 }
 
