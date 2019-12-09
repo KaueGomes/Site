@@ -41,19 +41,19 @@ a:hover{
 ul li{
 	
 	padding: 15px;
-	font-size: 20px;
-	
+	font-size: 18px;
+	font-family: Helvetica;
 }
 
 .logo_content{
 	
-	padding: 15px;
 	width: -webkit-fill-available;
 	
 }
 
 .logo_content img{
 	
+	padding:20px;
 	max-width:20%;
 	
 }
